@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { faUniversity } from "@fortawesome/free-solid-svg-icons";
 import SearchLetter from "./SearchLetter";
-import Searchbox from "./SearchBox";
+import SearchBox from "./SearchBox";
 
 export default function BannerBox() {
   return (
@@ -29,7 +29,7 @@ export default function BannerBox() {
           <div className="row">
             <div className="Search-bx">
               <div className="search">
-                <Searchbox />
+               <SearchBox />
                 <ul>
                   <li>
                     <SearchLetter />

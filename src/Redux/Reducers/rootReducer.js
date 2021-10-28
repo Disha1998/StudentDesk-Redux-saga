@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
 import Books from './ListReducer';
 import DetailBook from './DetailReduser';
-import SearchBook from './SearchBookReducer'
+// import SearchBook from './SearchBookReducer'
 
 const rootReducer = combineReducers({
   Books,
   DetailBook,
-  SearchBook,
+  // SearchBook,
 });
 
 export default rootReducer;
