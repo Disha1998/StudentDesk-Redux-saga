@@ -6,8 +6,10 @@ import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { faUniversity } from "@fortawesome/free-solid-svg-icons";
 import SearchLetter from "./SearchLetter";
 import SearchBox from "./SearchBox";
+import { useSelector, useDispatch } from "react-redux";
 
 export default function BannerBox() {
+  const booksear = useSelector(state => state);
   return (
     <div className="banner-bx">
       <div className="container">

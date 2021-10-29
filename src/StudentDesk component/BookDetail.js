@@ -6,7 +6,7 @@ import { fetchBookDetail } from "../Redux/Action/Actions";
 import { useParams } from "react-router";
 import moment from "moment";
 import { SocialIcon } from 'react-social-icons';
-import reactDom from "react-dom";
+// import reactDom from "react-dom";
 
 export default function BookDetail() {
   const books = useSelector(state => state.Books.BooksData);
@@ -16,7 +16,7 @@ export default function BookDetail() {
   const bookdetail = useSelector((state) => state.DetailBook.BooksDetailData);
   // console.log(bookdetail)
   const loading = useSelector((state) => state.loading);
-  const error = useSelector((state) => state.error);
+  // const error = useSelector((state) => state.error);
 
   useEffect(() => {
     dispatch(fetchBookDetail(id));
